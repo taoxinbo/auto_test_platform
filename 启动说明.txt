@@ -1,0 +1,5 @@
+1、启动Django服务，双击'cmd.bat'。
+
+2、启动Redis服务，双击'Redis.bat'。
+
+3、启动Celery服务，cmd进入 E:\auto_test_platform，执行如下命令：celery worker -A auto_test_platform -l info -P eventlet
